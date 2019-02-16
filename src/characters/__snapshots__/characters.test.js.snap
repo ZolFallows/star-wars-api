@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters Component only renders when character search triggers 1`] = `
+<Fragment>
+  <div
+    className="search-form"
+  >
+    <input
+      autoComplete="off"
+      name="people"
+      onKeyPress={[Function]}
+      placeholder="Enter character name"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="search-result"
+  />
+</Fragment>
+`;
+
+exports[`Characters Component renders empty when sections not supplied 1`] = `
+<Fragment>
+  <div
+    className="search-form"
+  >
+    <input
+      autoComplete="off"
+      name="people"
+      onKeyPress={[Function]}
+      placeholder="Enter character name"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="search-result"
+  />
+</Fragment>
+`;
+
+exports[`Chareacters component renders the UI as expected 1`] = `
+Array [
+  <div
+    className="search-form"
+  >
+    <input
+      autoComplete="off"
+      name="people"
+      onKeyPress={[Function]}
+      placeholder="Enter character name"
+      required={true}
+      type="text"
+    />
+  </div>,
+  <div
+    className="search-result"
+  />,
+]
+`;
+
+exports[`Chareacters component renders the UI as expected with no unreads 1`] = `
+Array [
+  <div
+    className="search-form"
+  >
+    <input
+      autoComplete="off"
+      name="people"
+      onKeyPress={[Function]}
+      placeholder="Enter character name"
+      required={true}
+      type="text"
+    />
+  </div>,
+  <div
+    className="search-result"
+  />,
+]
+`;

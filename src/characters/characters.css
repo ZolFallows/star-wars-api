@@ -1,0 +1,28 @@
+input {
+    border: 1px solid #fff900;
+    border-radius: 5px;
+    background: none;
+    padding: 10px;
+    color: #fff900;
+    margin-bottom: 15px;
+}
+
+input::placeholder {
+    color: #fff900;
+    opacity: 0.5;
+}
+
+input:hover, input:focus {
+    outline: none;
+}
+.search-result {
+    color: #fff900;
+}
+
+h2 {
+    margin: 0;
+    transform: perspective(200px) rotateX(25deg);
+    margin-bottom: 10px;
+    max-width: 100vh;
+    max-height: 100vh
+}
