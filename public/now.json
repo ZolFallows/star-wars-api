@@ -1,6 +1,7 @@
 
 {
     "version": 2,
+    "alias": "starwars-search",
     "name": "starwars-search",
     "routes": [
         {
